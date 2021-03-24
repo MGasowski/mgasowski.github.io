@@ -8,56 +8,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-
 <div id="main" class="division">
     <img class="rounded-circle img-thumbnail avatar" src="img/avatar.jpg">
     <div class="m-2"><h1>Marcin Gąsowski</h1>
         <h2>Junior Developer</h2></div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo massa placerat ipsum convallis, ut
-        tincidunt risus molestie. Vestibulum commodo at mi nec lobortis. Suspendisse blandit scelerisque volutpat. Sed
-        id turpis non risus accumsan semper in a nisi. Sed
-    </p>
+<!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo massa placerat ipsum convallis, ut-->
+<!--        tincidunt risus molestie. Vestibulum commodo at mi nec lobortis. Suspendisse blandit scelerisque volutpat. Sed-->
+<!--        id turpis non risus accumsan semper in a nisi. Sed-->
+<!--    </p>-->
     <div class="scroll-down">
         <p>Scroll down</p>
         <a href="#projects"><img src="img/arrow.svg"></a>
     </div>
 </div>
-
 <div id="projects" class="division">
     <h1>My projects</h1>
     <div class="card-group">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/space.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/house.jpg" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <h5 class="card-title">Room Listings</h5>
+                <p class="card-text">AirBnB API based WEB app for room querying.</p>
+                Technologies used
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                </ul>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
-
         <div class="card m-4" style="width: 18rem;">
-            <img class="card-img-top" src="img/space.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/main-bg.jpg" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <h5 class="card-title">Landing page</h5>
+                <p class="card-text">Website you probably are currently on. Feel free to see what's behind</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card " style="width: 18rem;">
+            <img class="card-img-top" src="img/books.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">To-Read Books</h5>
+                <p class="card-text">Simple website where you can add books you want to read, in which i learn Webpack bundler and Material Design Bootstrap</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/space.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+
     </div>
 
 </div>
@@ -181,5 +183,12 @@
 </div>
 
 <script src="js/bootstrap.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/utils.js"></script>
+<script>
+    ScrollReveal().reveal('div', { reset: true })
+    ScrollReveal().reveal('.scroll-down', { delay: 2000 })
+
+</script>
 </body>
 </html>

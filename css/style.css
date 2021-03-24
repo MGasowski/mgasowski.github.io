@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Baloo Tammudu 2', cursive;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size:xx-large;
     scroll-behavior: smooth;
 }
@@ -15,6 +15,7 @@ h1 {
     border-bottom: 4px solid #20c997;
     border-radius: 3px;
     line-height: 20px;
+
 }
 
 a {
@@ -88,7 +89,7 @@ a:hover {
 .skill {
     width: 35vw;
     /*border: 1px solid yellow;*/
-    overflow: hidden;
+    /*overflow: hidden*/
 }
 
 .contact-item {
@@ -100,3 +101,4 @@ a:hover {
     height: 100px;
     width: 100px;
 }
+
